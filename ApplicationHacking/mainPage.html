@@ -1,0 +1,239 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WinTon</title>
+    <link rel="stylesheet" href="/winton/style">
+</head>
+<body>
+
+<div class="main-center-box-class">
+    <div class="top-block-class">
+        <div class="top-right" align="right">
+            <table>
+                <tr>
+                    <td>
+                        <img src="/winton/images/WinTonLogo.png" width="50px" height="50px">
+                    </td>
+                    <td style="padding-left: 12px;">
+                        <span id="label-your-money-id">YourMoney</span>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="top-left" align="left">
+            <table>
+                <tr>
+                    <td>
+                        <img src="/winton/images/ProfileShark.png" width="50px" height="50px" class="circle-image-class">
+                    </td>
+                    <td style="padding-left: 12px;">
+                        <span id="label-your-login-name-id">YourProfile</span>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="online-users-block-class" align="center">
+        <div>
+            <span id="label-users-online-id">UsersNumber</span>
+            <span> users online</span>
+        </div>
+        <div class="padding-block-class"></div>
+        <div>
+            <span class="dot"> </span>
+            <span class="dot"> </span>
+            <span class="dot"> </span>
+        </div>
+    </div>
+    <div class="my-games-block-class" align="center">
+        <div class="card-a card-class">
+            <div class="card-gradient">
+                <div style="padding-top: 180px;"></div>
+                <table>
+                    <tr>
+                        <td>
+                            <div style="padding-left: 100px;"></div>
+                        </td>
+                        <td align="center">
+                            <div class="card-button no-select-class" onclick="playGameRace()">PLAY</div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="card-b card-class">
+            <div class="card-gradient">
+                <div style="padding-top: 180px;"></div>
+                <table>
+                    <tr>
+                        <td>
+                            <div style="padding-left: 100px;"></div>
+                        </td>
+                        <td align="center">
+                            <div class="card-button no-select-class" onclick="playGameArchery()">PLAY</div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="block-label-most-popular-class">
+        Most popular games
+    </div>
+    <div class="block-popular-games-catalog" align="center">
+        <div class="card-a card-class">
+            <div class="card-gradient" align="left">
+                <div style="padding-top: 200px;"></div>
+                <table>
+                    <tr>
+                        <td style="padding-left: 22px;">
+                            <img onclick="playGameRace()" src="/winton/images/ArrowBtn.png" width="32px" height="32px">
+                        </td>
+                        <td>
+                            <div class="label-class">Car Race</div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="card-b card-class">
+            <div class="card-gradient" align="left">
+                <div style="padding-top: 200px;"></div>
+                <table>
+                    <tr>
+                        <td style="padding-left: 22px;">
+                            <img onclick="playGameArchery()" src="/winton/images/ArrowBtn.png" width="32px" height="32px">
+                        </td>
+                        <td>
+                            <div class="label-class">Archery</div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="card-c card-class">
+            <div class="card-gradient" align="left">
+                <div style="padding-top: 200px;"></div>
+                <div class="label-red-class">
+                    <table>
+                        <tr>
+                            <td style="padding-left: 22px;">
+                                <img src="/winton/images/LockedImage.png" width="32px" height="32px">
+                            </td>
+                            <td>
+                                <div class="label-class">Car Football</div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="card-d card-class">
+            <div class="card-gradient" align="left">
+                <div style="padding-top: 200px;"></div>
+                <div class="label-red-class">
+                    <table>
+                        <tr>
+                            <td style="padding-left: 22px;">
+                                <img src="/winton/images/LockedImage.png" width="32px" height="32px">
+                            </td>
+                            <td>
+                                <div class="label-class">Boxing</div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-class-block" align="center">
+        <table>
+            <tr>
+                <td align="center">
+                    <img src="/winton/images/Home.png">
+                </td>
+                <td align="center">
+                    <img src="/winton/images/Friends.png">
+                </td>
+                <td align="center">
+                    <img src="/winton/images/Rewards.png">
+                </td>
+            </tr>
+            <tr>
+                <td>Home</td>
+                <td>Friends</td>
+                <td>Rewards</td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+<div style="display: none;" id="choose-card-price-box" align="center">
+    <img src="/winton/images/CarRace.jpg" class="banner-image-class" id="image-id-chosen-game">
+    <div class="banner-hide-bottom-class">
+        <div class="header-class" align="center" id="label-game-chosen-name">Car Race</div>
+            <div class="scrollable-cards-class">
+            <div class="box-prices-class">
+                <table>
+                    <tr>
+                        <td align="center">
+                            <p>Entry fee: 10</p>
+                            <p>Revenue: 15</p>
+                        </td>
+                        <td style="padding-left: 45px;"></td>
+                        <td>
+                            <img src="/winton/images/WinTonLogo.png" width="70px" height="70px">
+                        </td>
+                        <td></td>
+                    </tr>
+                </table>
+                <div class="play-btn-class" align="left" onclick="runGameByPrice(10, 15)">PLAY</div>
+            </div>
+            <div class="box-prices-class">
+                <table>
+                    <tr>
+                        <td align="center">
+                            <p>Entry fee: 20</p>
+                            <p>Revenue: 35</p>
+                        </td>
+                        <td style="padding-left: 45px;"></td>
+                        <td>
+                            <img src="/winton/images/WinTonLogo.png" width="70px" height="70px">
+                        </td>
+                        <td></td>
+                    </tr>
+                </table>
+                <div class="play-btn-class" align="left" onclick="runGameByPrice(20, 35)">PLAY</div>
+            </div>
+            <div class="box-prices-class">
+                <table>
+                    <tr>
+                        <td align="center">
+                            <p>Entry fee: 40</p>
+                            <p>Revenue: 72</p>
+                        </td>
+                        <td style="padding-left: 45px;"></td>
+                        <td>
+                            <img src="/winton/images/WinTonLogo.png" width="70px" height="70px">
+                        </td>
+                        <td></td>
+                    </tr>
+                </table>
+                <div class="play-btn-class" align="left" onclick="runGameByPrice(40, 72)">PLAY</div>
+            </div>
+            <div style="height: 150px;"></div>
+        </div>
+    </div>
+</div>
+
+<div id="box-game-result-info-div" style="display: none;"></div>
+
+<div id="box-for-iframe-box-id" style="display: none;"></div>
+
+<script src="/winton/scripts/main"></script>
+
+</body>
+</html>

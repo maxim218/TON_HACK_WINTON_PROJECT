@@ -1,0 +1,320 @@
+@font-face {
+  font-family: myRegular;
+  src: url(/winton/fonts/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: myMedium;
+  src: url(/winton/fonts/Roboto-Medium.ttf);
+}
+html {
+  font-size: 20px;
+  font-family: Geneva, Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+body {
+  font-size: 20px;
+  font-family: Geneva, Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: rgb(42, 16, 116);
+}
+
+body {
+  overflow-x: hidden;
+}
+
+body {
+  background: rgb(42, 16, 116);
+  background: linear-gradient(45deg, rgb(42, 16, 116) 0%, rgb(82, 54, 255) 100%);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+html {
+  font-family: myRegular, Geneva, Arial, Helvetica, sans-serif;
+}
+
+body {
+  font-family: myRegular, Geneva, Arial, Helvetica, sans-serif;
+}
+
+#box-game-result-info-div {
+  position: fixed;
+  left: 0;
+  top: 0;
+  background: rgb(42, 16, 116);
+  background: linear-gradient(45deg, rgb(42, 16, 116) 0%, rgb(82, 54, 255) 100%);
+  width: 100%;
+  height: 100%;
+  z-index: 65;
+}
+#box-game-result-info-div img {
+  margin-top: 42px;
+  width: 270px;
+  height: 270px;
+  border-radius: 18px;
+}
+#box-game-result-info-div .label-game-result-finishing-game {
+  padding: 22px;
+  font-family: myMedium, Geneva, Arial, Helvetica, sans-serif;
+  font-size: 40px;
+}
+#box-game-result-info-div .finish-button-fin-class {
+  font-family: myMedium, Geneva, Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-bottom: 10px;
+  width: 140px;
+  font-size: 26px;
+  padding: 14px;
+  border-radius: 12px;
+  background-image: linear-gradient(to bottom right, rgb(66, 255, 0), rgb(40, 200, 85));
+  cursor: pointer;
+}
+
+#box-for-iframe-box-id {
+  position: fixed;
+  left: 0;
+  top: 0;
+  background: rgb(42, 16, 116);
+  background: linear-gradient(45deg, rgb(42, 16, 116) 0%, rgb(82, 54, 255) 100%);
+  width: 100%;
+  height: 100%;
+  z-index: 75;
+}
+#box-for-iframe-box-id .class-iframe-block {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 99;
+  border: none;
+  outline: none;
+}
+
+#choose-card-price-box {
+  position: fixed;
+  left: 0;
+  top: 0;
+  background: rgb(42, 16, 116);
+  background: linear-gradient(45deg, rgb(42, 16, 116) 0%, rgb(82, 54, 255) 100%);
+  width: 100%;
+  height: 100%;
+  z-index: 45;
+}
+#choose-card-price-box .banner-image-class {
+  position: fixed;
+  left: 0;
+  top: -100px;
+  width: 100%;
+}
+#choose-card-price-box .scrollable-cards-class {
+  overflow-y: scroll;
+  height: 350px;
+}
+#choose-card-price-box .banner-hide-bottom-class {
+  position: fixed;
+  left: 0;
+  top: 250px;
+  width: 100%;
+  height: 100%;
+  background: rgb(42, 16, 116);
+  background: linear-gradient(45deg, rgb(42, 16, 116) 0%, rgb(82, 54, 255) 100%);
+}
+#choose-card-price-box .banner-hide-bottom-class .header-class {
+  font-family: myMedium, Geneva, Arial, Helvetica, sans-serif;
+  font-size: 28px;
+  padding: 18px;
+}
+#choose-card-price-box .banner-hide-bottom-class .box-prices-class {
+  display: block !important;
+  background: #32188E;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 85%;
+  border-radius: 12px;
+  padding: 4px 8px;
+  margin-bottom: 18px;
+}
+#choose-card-price-box .banner-hide-bottom-class .box-prices-class p {
+  font-size: 20px;
+  font-family: myMedium, Geneva, Arial, Helvetica, sans-serif;
+}
+#choose-card-price-box .banner-hide-bottom-class .box-prices-class .play-btn-class {
+  text-align: center;
+  margin-bottom: 10px;
+  width: 80px;
+  font-size: 20px;
+  padding: 12px;
+  border-radius: 12px;
+  background-image: linear-gradient(to bottom right, rgb(66, 255, 0), rgb(40, 200, 85));
+  cursor: pointer;
+}
+
+.main-center-box-class {
+  z-index: 25;
+}
+
+.main-center-box-class {
+  overflow-x: hidden;
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+}
+
+.circle-image-class {
+  border-radius: 50%;
+}
+
+.top-block-class {
+  padding: 20px;
+  background: rgb(42, 16, 116);
+  background: linear-gradient(0deg, #2A1074 0%, #32188E 100%);
+}
+.top-block-class .top-left {
+  font-family: myRegular, Geneva, Arial, Helvetica, sans-serif;
+  font-size: 24px;
+}
+.top-block-class .top-right {
+  font-family: myMedium, Geneva, Arial, Helvetica, sans-serif;
+  font-size: 24px;
+}
+
+.online-users-block-class {
+  padding: 20px;
+  font-size: 24px;
+}
+.online-users-block-class .padding-block-class {
+  padding-bottom: 12px;
+}
+.online-users-block-class .dot {
+  padding: 10px;
+  background-color: #86FF4E;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.no-select-class {
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+}
+
+.my-games-block-class {
+  padding: 20px;
+  font-size: 24px;
+  font-family: myMedium, Geneva, Arial, Helvetica, sans-serif;
+}
+.my-games-block-class .card-class {
+  width: 250px;
+  height: 250px;
+  border-radius: 26px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 0;
+  margin: 0 10px 20px;
+  display: inline-block;
+}
+.my-games-block-class .card-a {
+  background-image: url("/winton/images/CarRace.jpg");
+}
+.my-games-block-class .card-b {
+  background-image: url("/winton/images/Archery.png");
+}
+.my-games-block-class .card-gradient {
+  width: 250px;
+  height: 250px;
+  border-radius: 26px;
+  background-size: 100% 100%;
+  padding: 0;
+  margin: 0;
+  background: rgba(255, 255, 255, 0) linear-gradient(to bottom, rgba(82, 54, 255, 0) 10%, rgba(82, 54, 255, 0.1) 40%, rgba(82, 54, 255, 0.5) 75%, rgba(82, 54, 255, 0.7) 100%) repeat scroll 0 0;
+}
+.my-games-block-class .card-button {
+  width: 80px;
+  font-size: 20px;
+  padding: 12px;
+  border-radius: 12px;
+  background-image: linear-gradient(to bottom right, rgb(66, 255, 0), rgb(40, 200, 85));
+  cursor: pointer;
+}
+.my-games-block-class .card-button:hover {
+  background-image: linear-gradient(to bottom right, rgb(40, 200, 85), rgb(66, 255, 0));
+  cursor: pointer;
+}
+
+.block-label-most-popular-class {
+  font-size: 26px;
+  text-align: center;
+  padding-bottom: 8px;
+}
+
+.block-popular-games-catalog {
+  padding: 20px;
+  font-size: 24px;
+  font-family: myMedium, Geneva, Arial, Helvetica, sans-serif;
+}
+.block-popular-games-catalog .label-class {
+  font-size: 22px;
+  font-family: myRegular, Geneva, Arial, Helvetica, sans-serif;
+  padding-left: 12px;
+  display: inline-block;
+}
+.block-popular-games-catalog .card-a {
+  background-image: url("/winton/images/CarRace.jpg");
+}
+.block-popular-games-catalog .card-b {
+  background-image: url("/winton/images/Archery.png");
+}
+.block-popular-games-catalog .card-c {
+  background-image: url("/winton/images/CarFootball.png");
+}
+.block-popular-games-catalog .card-d {
+  background-image: url("/winton/images/Boxing.png");
+}
+.block-popular-games-catalog .card-class {
+  width: 250px;
+  height: 250px;
+  border-radius: 26px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 0;
+  margin: 0 10px 20px;
+  display: inline-block;
+}
+.block-popular-games-catalog .card-gradient {
+  width: 250px;
+  height: 250px;
+  border-radius: 26px;
+  background-size: 100% 100%;
+  padding: 0;
+  margin: 0;
+  background: rgba(255, 255, 255, 0) linear-gradient(to bottom, rgba(82, 54, 255, 0) 10%, rgba(82, 54, 255, 0.1) 40%, rgba(82, 54, 255, 0.5) 75%, rgba(82, 54, 255, 0.7) 100%) repeat scroll 0 0;
+}
+
+.label-red-class {
+  color: white;
+}
+
+.footer-class-block {
+  padding: 12px;
+  background: rgb(87, 87, 210);
+}
+.footer-class-block img {
+  text-align: center;
+  width: 32px;
+  height: 32px;
+}
+.footer-class-block td {
+  padding: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */

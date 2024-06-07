@@ -1,0 +1,18 @@
+{
+  "name": "application_hacking",
+  "version": "1.0.0",
+  "description": "application_hacking",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "sass ./scss/main.scss ./css/style.css",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "fs": "^0.0.1-security"
+  }
+}

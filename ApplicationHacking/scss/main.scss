@@ -1,0 +1,356 @@
+﻿@font-face {
+  font-family: myRegular;
+  src: url(/winton/fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: myMedium;
+  src: url(/winton/fonts/Roboto-Medium.ttf);
+}
+
+html {
+  font-size: 20px;
+  font-family: Geneva, Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+body {
+  font-size: 20px;
+  font-family: Geneva, Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: rgb(42,16,116);
+}
+
+body {
+  overflow-x: hidden;
+}
+
+body {
+  background: rgb(42,16,116);
+  background: linear-gradient(45deg, rgba(42,16,116,1) 0%, rgba(82,54,255,1) 100%);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+html {
+  font-family: myRegular, Geneva, Arial, Helvetica, sans-serif;
+}
+
+body {
+  font-family: myRegular, Geneva, Arial, Helvetica, sans-serif;
+}
+
+#box-game-result-info-div {
+  position: fixed;
+  left: 0;
+  top: 0;
+
+  background: rgb(42,16,116);
+  background: linear-gradient(45deg, rgba(42,16,116,1) 0%, rgba(82,54,255,1) 100%);
+  width: 100%;
+  height: 100%;
+
+  z-index: 65;
+  
+  img {
+    margin-top: 42px;
+    width: 270px;
+    height: 270px;
+    border-radius: 18px;
+  }
+  
+  .label-game-result-finishing-game {
+    padding: 22px;
+    font-family: myMedium, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 40px;
+  }
+  
+  .finish-button-fin-class {
+    font-family: myMedium, Geneva, Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-bottom: 10px;
+    width: 140px;
+    font-size: 26px;
+    padding: 14px;
+    border-radius: 12px;
+    background-image: linear-gradient(to bottom right, rgba(66, 255, 0, 1), rgba(40, 200, 85, 1));
+    cursor: pointer;
+  }
+}
+
+#box-for-iframe-box-id {
+  position: fixed;
+  left: 0;
+  top: 0;
+
+  background: rgb(42,16,116);
+  background: linear-gradient(45deg, rgba(42,16,116,1) 0%, rgba(82,54,255,1) 100%);
+  width: 100%;
+  height: 100%;
+
+  z-index: 75;
+  
+  .class-iframe-block {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+    border: none;
+    outline: none;
+  }
+}
+
+#choose-card-price-box {
+  position: fixed;
+  left: 0;
+  top: 0;
+
+  background: rgb(42,16,116);
+  background: linear-gradient(45deg, rgba(42,16,116,1) 0%, rgba(82,54,255,1) 100%);
+  width: 100%;
+  height: 100%;
+  
+  z-index: 45;
+  
+  .banner-image-class {
+    position: fixed;
+    left: 0;
+    top: -100px;
+    width: 100%;
+  }
+  
+  .scrollable-cards-class {
+    overflow-y: scroll;
+    height: 350px;
+  }
+  
+  .banner-hide-bottom-class {
+    position: fixed;
+    left: 0;
+    top: 250px;
+    width: 100%;
+    height: 100%;
+    background: rgb(42,16,116);
+    background: linear-gradient(45deg, rgba(42,16,116,1) 0%, rgba(82,54,255,1) 100%);
+    
+    .header-class {
+      font-family: myMedium, Geneva, Arial, Helvetica, sans-serif;
+      font-size: 28px;
+      padding: 18px;
+    }
+    
+    .box-prices-class {
+      display: block !important;
+      background: #32188E;
+      box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+      width: 85%;
+      border-radius: 12px;
+      padding: 4px 8px;
+      margin-bottom: 18px;
+      
+      p {
+        font-size: 20px;
+        font-family: myMedium, Geneva, Arial, Helvetica, sans-serif;
+      }
+      
+      .play-btn-class {
+        text-align: center;
+        margin-bottom: 10px;
+        width: 80px;
+        font-size: 20px;
+        padding: 12px;
+        border-radius: 12px;
+        background-image: linear-gradient(to bottom right, rgba(66, 255, 0, 1), rgba(40, 200, 85, 1));
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.main-center-box-class {
+  z-index: 25;
+}
+
+.main-center-box-class {
+  overflow-x: hidden;
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+}
+
+.circle-image-class {
+  border-radius: 50%;
+}
+
+.top-block-class {
+  padding: 20px;
+  background: rgb(42,16,116);
+  background: linear-gradient(0deg, #2A1074 0%, #32188E 100%);
+  
+  .top-left {
+    font-family: myRegular, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 24px;
+  }
+  
+  .top-right {
+    font-family: myMedium, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 24px;
+  }
+}
+
+.online-users-block-class {
+  padding: 20px;
+  font-size: 24px;
+
+  .padding-block-class {
+    padding-bottom: 12px;
+  }
+  
+  .dot {
+    padding: 10px;
+    background-color: #86FF4E;
+    border-radius: 50%;
+    display: inline-block;
+  }
+}
+
+.no-select-class {
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+}
+
+.my-games-block-class {
+  padding: 20px;
+  font-size: 24px;
+  font-family: myMedium, Geneva, Arial, Helvetica, sans-serif;
+  
+  .card-class {
+    width: 250px;
+    height: 250px;
+    border-radius: 26px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+    padding: 0;
+    margin: 0 10px 20px;
+    display: inline-block;
+  }
+  
+  .card-a {
+    background-image: url("/winton/images/CarRace.jpg");
+  }
+  
+  .card-b {
+    background-image: url("/winton/images/Archery.png");
+  }
+  
+  .card-gradient {
+    width: 250px;
+    height: 250px;
+    border-radius: 26px;
+    background-size: 100% 100%;
+    padding: 0;
+    margin: 0;
+    background: rgba(255, 255, 255, 0) linear-gradient(to bottom, rgba(82, 54, 255, 0) 10%, rgba(82, 54, 255, .1) 40%, rgba(82, 54, 255, .5) 75%, rgba(82, 54, 255, .7) 100%) repeat scroll 0 0;
+  }
+  
+  .card-button {
+    width: 80px;
+    font-size: 20px;
+    padding: 12px;
+    border-radius: 12px;
+    background-image: linear-gradient(to bottom right, rgba(66, 255, 0, 1), rgba(40, 200, 85, 1));
+    cursor: pointer;
+  }
+
+  .card-button:hover {
+    background-image: linear-gradient(to bottom right, rgba(40, 200, 85, 1), rgba(66, 255, 0, 1));
+    cursor: pointer;
+  }
+}
+
+.block-label-most-popular-class {
+  font-size: 26px;
+  text-align: center;
+  padding-bottom: 8px;
+}
+
+.block-popular-games-catalog {
+  padding: 20px;
+  font-size: 24px;
+  font-family: myMedium, Geneva, Arial, Helvetica, sans-serif;
+
+  .label-class {
+    font-size: 22px;
+    font-family: myRegular, Geneva, Arial, Helvetica, sans-serif;
+    padding-left: 12px;
+    display: inline-block;
+  }
+  
+  .card-a {
+    background-image: url("/winton/images/CarRace.jpg");
+  }
+
+  .card-b {
+    background-image: url("/winton/images/Archery.png");
+  }
+
+  .card-c {
+    background-image: url("/winton/images/CarFootball.png");
+  }
+
+  .card-d {
+    background-image: url("/winton/images/Boxing.png");
+  }
+  
+  .card-class {
+    width: 250px;
+    height: 250px;
+    border-radius: 26px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 0;
+    margin: 0 10px 20px;
+    display: inline-block;
+  }
+
+  .card-gradient {
+    width: 250px;
+    height: 250px;
+    border-radius: 26px;
+    background-size: 100% 100%;
+    padding: 0;
+    margin: 0;
+    background: rgba(255, 255, 255, 0) linear-gradient(to bottom, rgba(82, 54, 255, 0) 10%, rgba(82, 54, 255, .1) 40%, rgba(82, 54, 255, .5) 75%, rgba(82, 54, 255, .7) 100%) repeat scroll 0 0;
+  }
+}
+
+.label-red-class {
+  color: white;
+}
+
+.footer-class-block {
+  padding: 12px;
+  background: rgba(87, 87, 210, 1);
+  
+  img {
+    text-align: center;
+    width: 32px;
+    height: 32px;
+  }
+  
+  td {
+    padding: 10px;
+  }
+}
